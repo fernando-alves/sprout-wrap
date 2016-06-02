@@ -71,30 +71,14 @@ node_attributes:
     formulas:
       - name: universal-ctags
         head: true
-      - ag
       - chromedriver
-      - imagemagick
       - node
-      - pstree
-      - qt
-      - ssh-copy-id
-      - tmux
-      - tree
-      - watch
       - wget
       - rbenv-binstubs
     casks:
-      - firefox
       - flycut
       - rowanj-gitx
-      - github-desktop
       - google-chrome
-      - google-drive
-      - google-hangouts
-      - macvim
       - skype
-      - textmate
       - vagrant
       - virtualbox
-      - xquartz
-      - xscope
