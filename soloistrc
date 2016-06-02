@@ -21,9 +21,7 @@ recipes:
 # development (general)
 - sprout-base::workspace_directory
 - sprout-git
-- sprout-git::default_editor
 - sprout-git::projects
-- sprout-git::git_scripts
 
 # development (rails)
 - sprout-rbenv
@@ -38,23 +36,14 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: pivotal.io
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: fj
+          name: Fernando Junior
+          username: fernando-alves
       projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+        - name: sprout-wrap
+          url: https://github.com/fernando-alves/sprout-wrap.git
+          workspace_path: ~/projects
     terminal:
       default_profile: 'Pro'
     settings:
