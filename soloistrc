@@ -35,16 +35,15 @@ node_attributes:
         - name: sprout-wrap
           url: https://github.com/fernando-alves/sprout-wrap.git
           workspace_path: ~/projects
-    terminal:
-      default_profile: 'Pro'
     settings:
-      clock_format: EEE MMM d  h:mm:ss a
+      clock_format: EEE HH:mm
     dock_preferences:
-      orientation: 'left'
+      orientation: 'bottom'
       auto_hide: true
       clear_apps: true
       tile_size: 35
-      magnification: false
+      magnification: true
+      largesize: 73
   homebrew:
     taps:
       - universal-ctags/universal-ctags
