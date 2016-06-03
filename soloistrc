@@ -67,6 +67,7 @@ node_attributes:
       - virtualbox
       - dockertoolbox
       - screenhero
+      - ngrok
       - skype
       - vlc
       - spotify
