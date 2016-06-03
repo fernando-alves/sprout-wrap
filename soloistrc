@@ -15,6 +15,7 @@ recipes:
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::function_keys
 - sprout-osx-settings::dock_preferences
+- sprout-osx-settings::locate
 - sprout-ssh::known_hosts_github
 
 # development (general)
