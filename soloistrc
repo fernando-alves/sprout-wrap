@@ -12,6 +12,8 @@ recipes:
 
 # settings
 #- sprout-osx-settings: not installing this until I have my own
+- sprout-osx-settings::defaults_fast_key_repeat_rate
+- sprout-osx-settings::function_keys
 - sprout-osx-settings::dock_preferences
 - sprout-ssh::known_hosts_github
 
@@ -44,6 +46,9 @@ node_attributes:
       tile_size: 35
       magnification: true
       largesize: 73
+    keyboard_preferences:
+      key_repeat_rate_lower_is_faster: 2
+      initial_repeat_delay_lower_is_shorter: 15
   homebrew:
     taps:
       - universal-ctags/universal-ctags
