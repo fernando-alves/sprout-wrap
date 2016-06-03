@@ -1,3 +1,3 @@
 - [ ] Add dot-files repo and have it setup.
-- [ ] Go read pivotal-sprout/sprout-osx-settings and remove things I dont need.
+- [x] Go read pivotal-sprout/sprout-osx-settings and remove things I dont need.
 - [ ] Add atom, packages and bindings
