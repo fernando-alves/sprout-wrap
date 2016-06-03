@@ -58,10 +58,16 @@ node_attributes:
       - rbenv-use
       - ruby-build
     casks:
+      - google-chrome
+      - atom
+      - evernote
       - flycut
       - rowanj-gitx
-      - google-chrome
-      - skype
       - vagrant
       - virtualbox
-      - atom
+      - dockertoolbox
+      - screenhero
+      - skype
+      - vlc
+      - spotify
+      - quicksilver
