@@ -16,6 +16,7 @@ recipes:
 - sprout-osx-settings::function_keys
 - sprout-osx-settings::dock_preferences
 - sprout-osx-settings::locate
+- sprout-osx-settings::screensaver
 - sprout-ssh::known_hosts_github
 
 # development (general)
@@ -50,6 +51,12 @@ node_attributes:
     keyboard_preferences:
       key_repeat_rate_lower_is_faster: 2
       initial_repeat_delay_lower_is_shorter: 15
+    screensaver:
+      ask_for_password: true
+      askForPasswordDelay: 0
+      displaysleep: 180
+      disksleep: 10
+      sleep: 0
   homebrew:
     taps:
       - universal-ctags/universal-ctags
