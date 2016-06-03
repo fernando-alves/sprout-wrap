@@ -17,6 +17,7 @@ recipes:
 - sprout-osx-settings::dock_preferences
 - sprout-osx-settings::locate
 - sprout-osx-settings::screensaver
+- sprout-osx-settings::set_menubar_clock_format
 - sprout-ssh::known_hosts_github
 
 # development (general)
