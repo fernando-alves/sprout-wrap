@@ -54,6 +54,9 @@ node_attributes:
       - node
       - wget
       - rbenv-binstubs
+      - rbenv-aliases
+      - rbenv-use
+      - ruby-build
     casks:
       - flycut
       - rowanj-gitx
