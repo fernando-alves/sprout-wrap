@@ -88,7 +88,9 @@ node_attributes:
       - dockertoolbox
       - screenhero
       - ngrok
+      - istat-menus
       - skype
       - vlc
       - spotify
       - quicksilver
+      - 1password
