@@ -2,6 +2,9 @@
 - [x] Go read pivotal-sprout/sprout-osx-settings and remove things I dont need.
 - [ ] Add atom, packages and bindings
 - [ ] Bash_it was installed, remove it.
-- [ ] Set quicksilver to be default
-- [ ] Flycut icon
+- [ ] Set quicksilver to be default/Disable spotlight
+- [ ] Flycut icon (defaults write com.generalarcade.flycut menuIcon 3)
 - [ ] Battery icon
+- [ ] Caffeine
+- [ ] Disable stuff on spotlight
+- [ ] Battery percentage ('com.apple.menuextra.battery': { ShowPercent = YES; })
