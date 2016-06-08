@@ -8,3 +8,4 @@
 - [ ] Caffeine
 - [ ] Disable stuff on spotlight
 - [ ] Battery percentage ('com.apple.menuextra.battery': { ShowPercent = YES; })
+- [ ] Disable symantec quickmenu ('com.symantec.quickmenu': { On = 1; })
