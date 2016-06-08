@@ -11,7 +11,6 @@ recipes:
 - sprout-osx-apps::iterm2
 
 # settings
-#- sprout-osx-settings: not installing this until I have my own
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::function_keys
 - sprout-osx-settings::dock_preferences
@@ -79,6 +78,7 @@ node_attributes:
       - ruby-build
     casks:
       - google-chrome
+      - dropbox
       - atom
       - evernote
       - flycut
