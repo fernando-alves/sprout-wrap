@@ -5,7 +5,7 @@
 - [ ] Set quicksilver to be default/Disable spotlight
 - [ ] Flycut icon (defaults write com.generalarcade.flycut menuIcon 3)
 - [ ] Battery icon
-- [ ] Caffeine
+- [x] Caffeine
 - [ ] Disable stuff on spotlight
 - [ ] Battery percentage ('com.apple.menuextra.battery': { ShowPercent = YES; })
 - [ ] Disable symantec quickmenu ('com.symantec.quickmenu': { On = 1; })
