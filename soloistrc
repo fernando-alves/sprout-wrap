@@ -97,3 +97,5 @@ node_attributes:
       - utorrent
       - caffeine
       - unrarx
+      - steam
+      - java
