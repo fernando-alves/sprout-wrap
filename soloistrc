@@ -30,6 +30,7 @@ recipes:
 - sprout-ruby
 
 node_attributes:
+  workspace_directory: projects
   sprout:
     git:
       authors:
@@ -39,10 +40,8 @@ node_attributes:
       projects:
         - name: sprout-wrap
           url: https://github.com/fernando-alves/sprout-wrap.git
-          workspace_path: ~/projects
         - name: dot-files
           url: https://github.com/fernando-alves/dot-files.git
-          workspace_path: ~/projects
           post_clone_commands:
             - sh setup.sh
     settings:
