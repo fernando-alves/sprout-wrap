@@ -9,3 +9,4 @@
 - [x] Caffeine
 - [ ] Disable stuff on spotlight
 - [ ] Battery percentage ('com.apple.menuextra.battery': { ShowPercent = YES; })
+- [x] Trackpad tap to click
