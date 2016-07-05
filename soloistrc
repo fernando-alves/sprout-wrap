@@ -19,6 +19,8 @@ recipes:
 - sprout-osx-settings::set_menubar_clock_format
 - sprout-osx-settings::updates
 - sprout-osx-settings::trackpad
+- sprout-osx-settings::volume
+- sprout-osx-settings::bluetooth
 - sprout-ssh::known_hosts_github
 
 # development (general)

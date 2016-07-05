@@ -11,13 +11,13 @@ SITE
       seven_zip (>= 0.0.0)
     seven_zip (2.0.1)
       windows (>= 1.2.2)
-    windows (1.42.0)
+    windows (1.44.1)
       chef_handler (>= 0.0.0)
 
 GIT
   remote: https://github.com/fernando-alves/sprout-osx-settings
   ref: master
-  sha: aa03a3b2789e931a7ea395cec90e5ea6043ea0c1
+  sha: 2bd3cea42ccb59f582ed8159aadb4fd900f30007
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -34,7 +34,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-base
   ref: master
-  sha: 689f8b6d2a679c076cf41e8fc7ab3cda9617d4fd
+  sha: fe8719337275808d2a6a33b2d60561f36c2272a5
   specs:
     sprout-base (0.5.0)
       homebrew (>= 0.0.0)
@@ -42,9 +42,9 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-git
   ref: master
-  sha: d50840b4510e5cdfda99bbbe04b9e3813176686c
+  sha: 6dc489790e8a9a3fa399437278db1408cf2cd9a1
   specs:
-    sprout-git (0.2.1)
+    sprout-git (0.3.1)
       homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
@@ -97,7 +97,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-rbenv
   ref: master
-  sha: ef38508a12ea3dfe06449ecbf82d98e7b75aeaa6
+  sha: aacfd19f867511715e6070988013ed453d268efb
   specs:
     sprout-rbenv (0.1.0)
       homebrew (>= 0.0.0)
