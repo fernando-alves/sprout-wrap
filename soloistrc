@@ -21,6 +21,7 @@ recipes:
 - sprout-osx-settings::trackpad
 - sprout-osx-settings::volume
 - sprout-osx-settings::bluetooth
+- sprout-osx-settings::show_battery_percentage
 - sprout-ssh::known_hosts_github
 
 # development (general)
