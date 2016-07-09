@@ -92,7 +92,7 @@ node_attributes:
       - rowanj-gitx
       - vagrant
       - virtualbox
-      - dockertoolbox
+      - docker
       - screenhero
       - ngrok
       - istat-menus
