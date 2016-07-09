@@ -66,6 +66,8 @@ node_attributes:
       displaysleep: 180
       disksleep: 10
       sleep: 0
+    rbenv:
+      default-ruby: 2.3
   trackpad:
     tap_to_click: true
   homebrew:
