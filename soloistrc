@@ -106,3 +106,4 @@ node_attributes:
       - unrarx
       - steam
       - java
+      - gpgtools
