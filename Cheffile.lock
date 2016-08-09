@@ -15,6 +15,14 @@ SITE
       chef_handler (>= 0.0.0)
 
 GIT
+  remote: https://github.com/fernando-alves/sprout-atom
+  ref: master
+  sha: c7ccf12f564161d7aaa952d1b81b3fcf3c291f7b
+  specs:
+    sprout-atom (0.0.1)
+      homebrew (>= 0.0.0)
+
+GIT
   remote: https://github.com/fernando-alves/sprout-osx-settings
   ref: master
   sha: e753cecc1af261be9c63360ab6ced3272e967edd
@@ -133,6 +141,7 @@ DEPENDENCIES
   build-essential (= 3.2.0)
   mingw (= 0.1.1)
   osx (>= 0)
+  sprout-atom (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)

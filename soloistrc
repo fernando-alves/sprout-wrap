@@ -33,6 +33,9 @@ recipes:
 - sprout-rbenv
 - sprout-ruby
 
+- sprout-atom::install
+- sprout-atom::packages
+
 node_attributes:
   workspace_directory: projects
   sprout:
@@ -70,6 +73,15 @@ node_attributes:
       default-ruby: 2.3
   trackpad:
     tap_to_click: true
+  atom:
+    packages:
+      - atom-ctags
+      - copy-path
+      - open-recent
+      - rails-latest-migration
+      - ruby-test-switcher
+      - set-syntax
+      - toggle-quotes
   homebrew:
     taps:
       - universal-ctags/universal-ctags

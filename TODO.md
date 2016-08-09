@@ -1,6 +1,6 @@
 - [x] Add dot-files repo and have it setup.
 - [x] Go read pivotal-sprout/sprout-osx-settings and remove things I dont need.
-- [ ] Add atom, packages and bindings
+- [x] Add atom, packages and bindings
 - [ ] Bash_it was installed, remove it.
 - [ ] Set quicksilver to be default/Disable spotlight ('com.apple.symbolichotkeys': {
     AppleSymbolicHotKeys 64)
