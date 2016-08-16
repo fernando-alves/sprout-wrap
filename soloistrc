@@ -78,10 +78,13 @@ node_attributes:
       - atom-ctags
       - copy-path
       - open-recent
-      - rails-latest-migration
       - ruby-test-switcher
       - set-syntax
       - toggle-quotes
+      - editorconfig
+      - linter
+      - linter-jshint
+      - linter-csslint
   homebrew:
     taps:
       - universal-ctags/universal-ctags
