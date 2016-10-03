@@ -85,6 +85,7 @@ node_attributes:
       - linter
       - linter-jshint
       - linter-csslint
+      - language-docker
   homebrew:
     taps:
       - universal-ctags/universal-ctags
