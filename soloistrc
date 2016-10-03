@@ -99,6 +99,7 @@ node_attributes:
       - rbenv-aliases
       - rbenv-use
       - ruby-build
+      - git-crypt
     casks:
       - google-chrome
       - dropbox
