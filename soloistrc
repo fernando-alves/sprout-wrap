@@ -106,7 +106,6 @@ node_attributes:
       - atom
       - evernote
       - flycut
-      - rowanj-gitx
       - vagrant
       - virtualbox
       - docker
@@ -118,7 +117,6 @@ node_attributes:
       - spotify
       - quicksilver
       - 1password
-      - utorrent
       - caffeine
       - unrarx
       - steam
