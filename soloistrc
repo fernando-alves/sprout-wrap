@@ -78,7 +78,6 @@ node_attributes:
       - atom-ctags
       - copy-path
       - open-recent
-      - ruby-test-switcher
       - set-syntax
       - toggle-quotes
       - editorconfig
