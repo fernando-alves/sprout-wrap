@@ -92,13 +92,13 @@ node_attributes:
       - name: universal-ctags
         head: true
       - chromedriver
-      - node
       - wget
       - rbenv-binstubs
       - rbenv-aliases
       - rbenv-use
       - ruby-build
       - git-crypt
+      - nvm
     casks:
       - google-chrome
       - dropbox
@@ -122,3 +122,6 @@ node_attributes:
       - java
       - gpgtools
       - thunderbird
+      - sync
+      - google-cloud-sdk
+      - docker
