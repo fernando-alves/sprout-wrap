@@ -19,9 +19,9 @@ recipes:
 - sprout-osx-settings::set_menubar_clock_format
 - sprout-osx-settings::updates
 - sprout-osx-settings::trackpad
-- sprout-osx-settings::volume
-- sprout-osx-settings::bluetooth
-- sprout-osx-settings::show_battery_percentage
+#- sprout-osx-settings::volume
+#- sprout-osx-settings::bluetooth
+#- sprout-osx-settings::show_battery_percentage
 - sprout-ssh::known_hosts_github
 
 # development (general)
@@ -45,12 +45,8 @@ node_attributes:
           name: Fernando Junior
           username: fernando-alves
       projects:
-        - name: sprout-wrap
-          url: https://github.com/fernando-alves/sprout-wrap.git
         - name: dot-files
           url: https://github.com/fernando-alves/dot-files.git
-          post_clone_commands:
-            - sh setup.sh
     settings:
       clock_format: EEE HH:mm
     dock_preferences:
@@ -73,18 +69,6 @@ node_attributes:
       default-ruby: 2.3
   trackpad:
     tap_to_click: true
-  atom:
-    packages:
-      - atom-ctags
-      - copy-path
-      - open-recent
-      - set-syntax
-      - toggle-quotes
-      - editorconfig
-      - linter
-      - linter-jshint
-      - linter-csslint
-      - language-docker
   homebrew:
     taps:
       - universal-ctags/universal-ctags
